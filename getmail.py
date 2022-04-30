@@ -4,8 +4,8 @@ import os
 import email
 import random
 
-email_user = 'magazzino@blogistica.biz'
-email_pass = 'zhulT=25'
+email_user = 'magazzino@test.biz'
+email_pass = 'mypass'
 
 mail = imaplib.IMAP4_SSL('mail.blogistica.biz',993)
 mail.login(email_user, email_pass)
